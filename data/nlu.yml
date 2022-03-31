@@ -85,11 +85,12 @@ nlu:
 - intent: subscribe
   examples: |
     - I want to subscribe to newsletter
-    - subcribe
+    - I want to get the newsletter
+    - Can you send me the newsletter?
+    - Can you sign me up for the newsletter?
 - intent: inform
   examples: |
-    - [bob@gmail.com](email)
-    - [person@yahoo.com](email)
-    - My email is [example@example.com](email)
-    - Please send it to [anything@example.com](email)
-    - Email is [something@example.com](email)
+    - My email is example@example.com
+    - random@example.com
+    - Please send it to anything@example.com
+    - Email is something@example.com
